@@ -4,14 +4,23 @@ html, body {
     /*overflow: hidden;*/ /* Added to hide the unexplainable overflow from the image */
 }
 
-img {
-    height: 100vh;
-    padding: 0;
+body {
+    display: flex;
+    column-gap: 10rem;
 }
 
 .left-side {
     background-image: url("./halie-west-25xggax4bSA-unsplash.jpg");
     background-repeat: no-repeat;
+    background-size: 100%;
     height: 100vh;
     padding: 0;
+
+    color: white;
+
+    flex-grow: 1;
+}
+
+.signup-form {
+    flex-grow: 2;
 }
