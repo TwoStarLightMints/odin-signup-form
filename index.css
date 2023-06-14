@@ -1,0 +1,10 @@
+html, body {
+    min-height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+img {
+    height: 100vh;
+    padding: 0;
+}
