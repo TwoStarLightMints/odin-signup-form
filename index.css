@@ -1,10 +1,17 @@
 html, body {
     min-height: 100%;
     margin: 0;
-    overflow: hidden; /* Added to hide the unexplainable overflow from the image */
+    /*overflow: hidden;*/ /* Added to hide the unexplainable overflow from the image */
 }
 
 img {
+    height: 100vh;
+    padding: 0;
+}
+
+.left-side {
+    background-image: url("./halie-west-25xggax4bSA-unsplash.jpg");
+    background-repeat: no-repeat;
     height: 100vh;
     padding: 0;
 }
